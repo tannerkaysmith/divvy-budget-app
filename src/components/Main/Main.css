@@ -1,0 +1,42 @@
+.Main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(205, 229, 255, 0.507);
+  }
+
+  .budgets {
+      margin: 0;
+      padding: 0;
+      padding: 30px;
+  }
+
+  .budget-line {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border: none;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 75vw;
+      border-radius: 30px;
+      background-color: rgba(172, 172, 172, 0.501);
+  }
+
+  .budget-line:hover {
+    background-color: rgba(138, 138, 138, 0.705);
+  }
+
+  p {
+      margin: 8px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 0px;
+  }
+
+  a:hover {
+      cursor: pointer;
+  }
